@@ -1,0 +1,123 @@
+/* for all tags */
+a {
+    text-decoration: none;
+    text-align: center;
+}
+button:hover {
+    text-decoration: underline;
+}
+hr {
+    margin-top: 0;
+}
+/* view button */
+#view_btn {
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    padding-left: 0;
+    align-self: center;
+}
+#view_btn button {
+    float: right;
+}
+/* navbar */
+#nav_logo {
+    margin-left: 200px;
+}
+#brand_low {
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    color: white;
+}
+#brand_low:hover {
+    text-decoration: underline;
+}
+#plus {
+    margin-right: 2px;
+    color: #ffe500;
+}
+#search_bar {
+    padding: 0px;
+}
+.search{
+    color: #0d6efd;
+    width: 50px;
+    height: 30px;
+}
+/* header categories */
+#header {
+    margin-top: 10px;
+    font-size: 12px;
+}
+#header a {
+    color: black;
+}
+#header a:hover {
+    color: #0d6efd;
+}
+/* deals section */
+#deals_container {
+    border: 1px solid rgba(211,211,211,0.7);
+    border-radius: 2px;
+    align-items: center;
+}
+#deals_header {
+    display: flex;
+}
+#deals_header h2 {
+    font-size: 22px;
+}
+#deals_header img {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#deals img {
+    width: 100px;
+    height: 120px;
+}
+#deals p {
+    margin: auto;
+    font-size: 14px;
+}
+
+#deals p:nth-child(2) {
+    font-weight: 500;
+    margin-top: 5px;
+}
+#deals p:nth-child(3)::before {
+    content: '50 % ';
+}
+#deals p:nth-child(3) {
+    color: green;
+}
+#deals p:nth-child(4) {
+    margin-bottom: 5px;
+}
+/* next button */
+#next_btn {
+    height: 100px;
+    width: 36px;
+    background: lightyellow;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    font-size: xx-large;
+}
+#next_btn i {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+/* ad banner */
+#banner {
+    border: 1px solid rgba(211,211,211,0.7);
+}
+/* musical items */
+#musical_container {
+    margin-top: 10px;
+    border: 1px solid rgba(211,211,211,0.7);
+}
+.blockquote-footer::before {
+    content: none;
+}
+.blockquote-footer {
+    font-size: 14px;
+}
